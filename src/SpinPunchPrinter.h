@@ -25,8 +25,8 @@ class SpinPunchPrinter {
   public:
 
     SpinPunchPrinter(const DeviceI2C& p) : motorsPlug(p) {}
-    void backspace(char);
-    void newline(char);
+    void backspace();
+    void newline();
     void character(char);
 
 };
