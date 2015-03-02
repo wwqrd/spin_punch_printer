@@ -14,6 +14,8 @@ class SpinPunchPrinter {
     } position;
 
     static const int COLUMNS = 80;
+    static const int STEPS_PER_ROW = 10;
+    static const int STEPS_PER_COLUMN = 10;
     const DeviceI2C& motorsPlug;
 
     void spin(char letter);
