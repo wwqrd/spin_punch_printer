@@ -3,7 +3,7 @@
 #ifndef MCPOUT_H
 #define MCPOUT_H
 
-class MCPOut {
+class McpOut {
 
   private:
 
