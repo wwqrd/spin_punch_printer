@@ -9,8 +9,14 @@ SpinPunchPrinter printer (mcpOut);
 
 void setup()
 {
+  Serial.begin(9600);
 }
 
 void loop()
 {
+  printer.print('A');
+  delay(1000);
+  printer.print('Z');
+  // Serial.println(millis());
+  delay(1000);
 }

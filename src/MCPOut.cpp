@@ -7,7 +7,7 @@ void McpOut::setup() {
   device.stop();
 }
 
-void McpOut::write(byte value) {
+void McpOut::send(byte value) {
   device.send();
   device.write(MCP_GPIO);
   device.write(value);

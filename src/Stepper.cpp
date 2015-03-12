@@ -6,7 +6,7 @@ Stepper::Stepper(const byte s[]) : sequence(s) {
 
 byte Stepper::forward() {
   step = step + 1;
-  if(step > 4) { step = 0; }
+  if(step > 3) { step = 0; }
   return sequence[step];
 }
 

@@ -19,7 +19,7 @@ class McpOut {
   public:
 
     McpOut(const DeviceI2C& d) : device(d) { setup(); }
-    void write(byte);
+    void send(byte);
 
 };
 

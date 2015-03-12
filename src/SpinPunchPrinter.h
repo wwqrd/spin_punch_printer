@@ -9,18 +9,25 @@ class SpinPunchPrinter {
 
   private:
 
-    const McpOut& mcpOut;
-    static byte daisySequence[];
+    McpOut& mcpOut;
+    static byte daisyStepperSequence[];
+    static String daisyCharacterSequence;
+    static int stepperSpeed;
     Stepper daisy;
 
-    char character;
+    char currentCharacter;
 
     void spin(char letter);
     void punch();
 
   public:
 
-    SpinPunchPrinter(const McpOut& m) : mcpOut(m), daisy(daisySequence) {}
+    SpinPunchPrinter(McpOut& m) : mcpOut(m), daisy(daisyStepperSequence) {
+      // Think we're going to have to use some kind of optical sensor
+      // to figure this out.
+      currentCharacter = 'A';
+    }
+
     void print(char);
 
 };
