@@ -14,9 +14,12 @@ void setup()
 
 void loop()
 {
-  printer.print('A');
-  delay(1000);
-  printer.print('Z');
-  // Serial.println(millis());
+  printer.print('S');
+  printer.print('T');
+  printer.print('E');
+  printer.print('P');
+  printer.print('H');
+  printer.print('E');
+  printer.print('N');
   delay(1000);
 }

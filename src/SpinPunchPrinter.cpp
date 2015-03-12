@@ -38,4 +38,5 @@ void SpinPunchPrinter::print(char character) {
   // turn to position
   // punch letter
   // go to next space
+  delay(250);
 }
