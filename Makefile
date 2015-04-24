@@ -1,6 +1,10 @@
 build:
-	./bin/build
+	ino build
+
 upload: build
-	./bin/upload
+	ino upload
+
 serial:
 	ino serial -- -e 'c'
+
+.PHONY: build upload serial
