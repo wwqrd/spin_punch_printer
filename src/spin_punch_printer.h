@@ -1,6 +1,6 @@
 #include <Arduino.h>
-#include "McpOut.h"
-#include "Stepper.h"
+#include "mcp_out.h"
+#include "stepper.h"
 
 #ifndef SPINPUNCHPRINTER_H
 #define SPINPUNCHPRINTER_H

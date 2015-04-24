@@ -1,4 +1,4 @@
-#include "Stepper.h"
+#include "stepper.h"
 
 Stepper::Stepper(const byte s[]) : sequence(s) {
   step = 0;

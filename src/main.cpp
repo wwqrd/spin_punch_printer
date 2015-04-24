@@ -1,6 +1,7 @@
+#include <Arduino.h>
 #include <JeeLib.h>
-#include "McpOut.h"
-#include "SpinPunchPrinter.h"
+#include "mcp_out.h"
+#include "spin_punch_printer.h"
 
 PortI2C motorsPort (1);
 DeviceI2C motorsDevice (motorsPort, 0x26);

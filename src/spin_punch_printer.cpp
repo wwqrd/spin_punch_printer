@@ -1,4 +1,4 @@
-#include "SpinPunchPrinter.h"
+#include "spin_punch_printer.h"
 
 byte SpinPunchPrinter::daisyStepperSequence[] = {0x0A, 0x06, 0x05, 0x09};
 String SpinPunchPrinter::daisyCharacterSequence = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

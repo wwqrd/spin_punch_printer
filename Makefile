@@ -1,10 +1,7 @@
 build:
-	ino build
+	platformio run
 
 upload: build
-	ino upload
+	platformio -t uploadlazy
 
-serial:
-	ino serial -- -e 'c'
-
-.PHONY: build upload serial
+.PHONY: build upload
