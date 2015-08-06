@@ -6,13 +6,9 @@ Firmware for a daisy-wheel or "letter quality" printer.
 Build
 -----
 
-> Requires [ino](http://inotool.org/)
+> Requires [jeelib](https://github.com/jcw/jeelib/)
 
-Build with make:
-
-```
-$ make build
-```
+Build with the Arduino IDE :sob:.
 
 Todo
 ----
