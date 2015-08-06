@@ -1,4 +1,4 @@
-#include "McpOut.h"
+#include "mcp_out.h"
 
 void McpOut::setup() {
   device.send();
