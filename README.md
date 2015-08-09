@@ -6,12 +6,22 @@ Firmware for a daisy-wheel or "letter quality" printer.
 Build
 -----
 
-> Requires [ino](http://inotool.org/)
+Requires [platformio](http://platformio.org/):
 
-Build with make:
+```
+$ pip install platformio
+```
+
+Build:
 
 ```
 $ make build
+```
+
+Deploy:
+
+```
+$ make upload
 ```
 
 Todo
